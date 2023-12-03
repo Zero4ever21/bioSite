@@ -1,0 +1,13 @@
+/*
+  Antonio Patterson
+  styles.css
+  12/3/23
+*/
+
+/* CSS Reset */
+
+body, header, nav, main, footer, img, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
