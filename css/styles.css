@@ -14,7 +14,7 @@ body, header, nav, main, footer, img {
 
 /* Style Rules for Body and Img */
 body {
-  background-color: #f7d0f4;
+  background-color: #fbd3d7;
 }
 img {
   max-width: 100%;
@@ -23,37 +23,84 @@ img {
 
 /* Style Rule for Header */
 
+/* Put my hero Image as my header. Updated to display Berenice love for nature */
+.hero {
+  position: relative;
+  /* Relative link didn't work used the absolute link */
+  background: url(https://i.pinimg.com/originals/b0/ee/f5/b0eef51bc422b8ad5acfb4220ac85be2.jpg) no-repeat center;
+  background-size: cover;
+  height: 370px;
+  overflow: hidden;
+  margin-top: -20px;
+}
+
+/* Welcome to Berenice's World for Header Intro */
+.intro {
+  position: absolute;
+  width: auto;
+  top: 40%;
+  left: 40%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.b-world a {
+  text-decoration: none;
+  color: #fff;
+}
 
 
 /* Style Rule for Nav */
 
-nav {
-  background-color: #d657cb;
-  width: 85%;
-  float: right;
-  margin: 0em;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  text-align: center;
+
+/* This puts the navbar inside the image */
+.container {
+  position: absolute;
+  width: auto;
+  left: 80%;
+  top: 10%;
 
 }
-nav li {
-  display: inline-block;
-  font-size: 1.2em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #33333300;
+
 }
-nav li a {
-  display: block;
-  color: #f8ebf7;
-  padding: 1em .5em 1em .5em;
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 12px;
   text-decoration: none;
+  font-size: 17px;
 }
+.topnav a:hover {
+  background-color: #33333300;
+  color: #fbd3d7;
+  border: 2px solid #fbd3d7;
+  border-radius: 12px;
+}
+
 
 
 /* Style Rule for Main */
 
+main {
+  clear: right;
+  text-align: left;
+}
 
+.hello {
+
+}
 
 /* Style Rule for footer */
+
+footer {
+  text-align: center;
+
+}
