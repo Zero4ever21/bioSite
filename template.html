@@ -11,26 +11,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
-  <title>bioSite</title>
+  <title>bioSite: Home</title>
 </head>
 <body>
 
 <!-- This is the template only adding nav and the layout of Landing page-->
 
 <header>
-<!-- Will only have Logo a Letter B-->
-<a href="index.html"><img src="Images/Berenice-logo.png" alt="Berenice Logo"></a>
-
-</header>
-
-<nav>
-<!-- Only 2 navigation webpages About and the Hobby-->
-  <ul>
-    <li><a href="about.html">About</a></li>
-    <li><a href="hobby.html">Hobby</a></li>
-  </ul>
-</nav>
-
+  <!-- Instead of the traditional <nav> element you would use a <div> element with class attributes to get display the nav-->
+    <div class="hero">
+  <!-- In style sheet is where I will place the Hero image for the class attribute bg-img-->
+      <div class="container">
+        <div class="topnav">
+          <a href="about.html">About</a>
+          <a href="hobby.html">Hobby</a>
+        </div>
+      </div>
+      <div class="intro">
+        <p><span>Welcome To</span></p>
+        <span class="b-world"><a href="index.html"><h1>Berenice's World</h1></a></span>
+      </div>
+    </div>
+  </header>
 <main>
   <!-- Hero Image will be here-->
   <div id="Hero">
@@ -40,10 +42,9 @@
   <div id="Hello">
     <h1>Hi I'm Berenice Aybar</h1>
     <div class="Hello">
-      <img src="">
       <p>I am a first generation Dominican American who has always been resilient and ambitious.
       Born in Bronx, New York, but raised in Waterbury, Connecticut. Motivated to get out of the dangerous
-      city of Waterbury I took a leap and moved to Raleigh,North Carolina in 2018 to pursue my college degree.</p><br>
+      city of Waterbury I took a leap and moved to Raleigh, North Carolina in 2018 to pursue my college degree.</p><br>
 
       <p> I recently became a new mom to a beautiful one-year-old daughter. Becoming a mother has become one of the greatest
       accomplishments of my life. I’m dedicated and on a mission to make sure my daughter lives life 10 times more than she deserves.
@@ -58,11 +59,9 @@
     </div>
   </div>
 
-  <div id="Baby Berenice">
-    <!-- Add Baby picture with caption "This is me at 2. I was pretty cute!""-->
-    
+  <div id="home-pics">
+    <img src="">
   </div>
-
 </main>
 
 <footer>
